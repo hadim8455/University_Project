@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hexify - Text ↔ Hex Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hexify Converter</h1>
+    <p class="subtitle">Convert between Text and Hex Instantly</p>
+
+    <div class="converter">
+      <textarea id="inputText" placeholder="Enter text or hex value here..."></textarea>
+
+      <div class="buttons">
+        <button id="toHex">Text ➜ Hex</button>
+        <button id="toText">Hex ➜ Text</button>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="output-section">
+        <textarea id="outputText" placeholder="Your result will appear here..." readonly></textarea>
+        <button id="copyBtn">Copy</button>
+      </div>
+
+      <p id="copiedMsg" class="hidden">✅ Copied to clipboard!</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>⚡ Made with ❤️ by Hadi</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
